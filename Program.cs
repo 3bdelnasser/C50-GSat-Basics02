@@ -131,13 +131,28 @@
             /*Q11.  Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its value.
             */
 
-            int? year = null;
+            //int? year = null;
 
-            Console.WriteLine(year.HasValue);
-            
-            year = 2023;
+            //Console.WriteLine(year.HasValue);
 
-            Console.WriteLine($"New Value: {year}");
+            //year = 2023;
+
+            //Console.WriteLine($"New Value: {year}");
+            #endregion
+
+            #region Question 12
+            /*Q12.  Declare a string? reviewer = null;. Print whether it is null.*/
+
+            string? reviewer = null;
+
+            if (reviewer is null)
+            {
+                Console.WriteLine(true);
+            }
+            else
+            {
+                Console.WriteLine(false);
+            }
             #endregion
         }
     }
