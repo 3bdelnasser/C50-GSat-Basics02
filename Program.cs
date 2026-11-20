@@ -117,14 +117,27 @@
             /*Q10.  Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int
             variable, and print both.*/
 
-            int copies = 100;
+            //int copies = 100;
 
-            object c1 = copies;
+            //object c1 = copies;
 
-            int c2 = (int)c1;
+            //int c2 = (int)c1;
 
-            Console.WriteLine(c1);
-            Console.WriteLine(c2);
+            //Console.WriteLine(c1);
+            //Console.WriteLine(c2);
+            #endregion
+
+            #region Question 11
+            /*Q11.  Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its value.
+            */
+
+            int? year = null;
+
+            Console.WriteLine(year.HasValue);
+            
+            year = 2023;
+
+            Console.WriteLine($"New Value: {year}");
             #endregion
         }
     }
