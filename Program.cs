@@ -143,16 +143,16 @@
             #region Question 12
             /*Q12.  Declare a string? reviewer = null;. Print whether it is null.*/
 
-            string? reviewer = null;
+            //string? reviewer = null;
 
-            if (reviewer is null)
-            {
-                Console.WriteLine(true);
-            }
-            else
-            {
-                Console.WriteLine(false);
-            }
+            //if (reviewer is null)
+            //{
+            //    Console.WriteLine(true);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(false);
+            //}
             #endregion
         }
     }
